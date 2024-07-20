@@ -1,0 +1,67 @@
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .email-link {
+    text-decoration: underline;
+    color: darkblue;
+  }
+  
+  .profile-section,
+  .career-summary {
+    margin-top: 20px;
+  }
+  
+  h1,
+  h2 {
+    color: #1f4e79;
+  }
+  
+  h2 {
+    background-color: #1f4e79;
+    color: white;
+    padding: 2px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    padding: 3px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: white;
+    color: black;
+  }  
